@@ -1,0 +1,144 @@
+/* Larger Devices (Wide screen) */
+/* ============= */
+@media screen and (max-width: 1540px) {
+  #header .header-info-box {
+    top: 4rem !important;
+  }
+  .testimonial-ppl {
+    margin-left: -3rem !important;
+    width: 18rem;
+  }
+}
+
+@media screen and (max-width: 1232px) {
+  h1 {
+    margin-top: -1rem !important;
+  }
+  .hero-img {
+    width: 25rem !important;
+  }
+}
+
+@media screen and (max-width: 1034px) {
+  h1 {
+    font-size: 2rem !important;
+    margin-top: -1rem !important;
+  }
+  .hero-img {
+    width: 22rem !important;
+  }
+  .testimonial-ppl {
+    margin-top: 9rem !important;
+    margin-left: -5rem !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .pricebox {
+    min-width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  #header {
+    overflow: hidden;
+    padding-bottom: 7rem !important;
+    background-size: 100% 90% !important;
+  }
+  .header-info-box {
+    top: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .testimonial-ppl {
+    width: 16rem !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #header {
+    margin-bottom: 0 !important;
+  }
+  #header .hero-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  #header .hero-img {
+    margin-top: -2rem !important;
+  }
+  #header h1 {
+    margin-top: 1rem !important;
+  }
+  .testimonial-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .testimonial-row .client-content-column {
+    margin-top: 0 !important;
+  }
+  .testimonial-row .testimonial-ppl {
+    margin-top: 3rem !important;
+    margin-left: 3rem !important;
+  }
+  .pricebox-mid {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #header {
+    background: -webkit-gradient(linear, left top, left bottom, from(#003999), to(#009BE2)) !important;
+    background: linear-gradient(#003999, #009BE2) !important;
+    overflow: visible;
+  }
+  #header h1 {
+    margin-top: -3rem !important;
+  }
+  #header .hero-img {
+    display: none;
+  }
+  #header .header-info-container {
+    display: none;
+  }
+  #header .header-info-box {
+    display: none;
+  }
+  #testimonial {
+    padding: 1rem !important;
+  }
+  #testimonial .testimonial-ppl {
+    display: none;
+  }
+  #how-it-works {
+    padding: 0 1rem !important;
+  }
+  .pricebox {
+    max-width: 300px !important;
+    margin: 0 auto;
+    min-width: 250px !important;
+  }
+  .member-container {
+    margin-bottom: 1rem;
+  }
+  .service-container {
+    margin: 0 1rem;
+  }
+  #footer .col-sm-12 {
+    text-align: center;
+  }
+  #footer .col-sm-12:nth-child(n-1) {
+    margin-bottom: 1rem !important;
+  }
+}
+
+/* Midium Devices (Tab, Laptop, Desktop) */
+/* ==================================== */
+/* Mobile Devices (I-phone, samsung, pixel etc) */
+/*# sourceMappingURL=responsive.css.map */
